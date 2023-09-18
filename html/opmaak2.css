@@ -1,0 +1,122 @@
+#menu {
+    text-align: center;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: white;
+   
+}
+
+#knop1 {
+    margin-right: 50px;
+}
+
+#knop2 {
+    margin-right: 50px;
+}
+
+#knop3 {
+    margin-right: 50px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a:hover{
+    background-color: red;
+    
+    
+}
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    transition: ease-in;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
+#titel {
+    font-size: 100px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    
+}
+
+h1 span {
+    background-color: red;
+}
+
+#homepagealgemeen {
+    background-image: url(pexels-lukas-574073.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
+#tekst {
+    color: white;
+    font-family: Helvetica;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    text-align: left;
+    
+}
+
+#p2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+    flex: 7 0 auto;
+}
+
+
+
+
+
+
+footer{
+    
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#homepageprivacy {
+    background-image: url(pexels-cottonbro-studio-5473955.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
+#homepagekleur {
+    background-image: url(pexels-marc-schulte-1499539.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
