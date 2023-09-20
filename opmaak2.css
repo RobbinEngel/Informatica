@@ -115,6 +115,15 @@ footer{
     background-size: 1450px;
 }
 
+#homepageovermij {
+    background-image: url(channels4_profile.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
 #homepagekleur {
     background-image: url(pexels-marc-schulte-1499539.jpg);
     background-position: center;
