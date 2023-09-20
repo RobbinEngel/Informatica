@@ -124,7 +124,7 @@ footer{
     background-size: 1450px;
 }
 
-iframe {
-    align-content: center;
+#video {
     
+    align-self: center;
 }
