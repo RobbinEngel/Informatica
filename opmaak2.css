@@ -115,8 +115,17 @@ footer{
     background-size: 1450px;
 }
 
-#homepageovermij {
+#homepagecompressie {
     background-image: url(pexels-markus-spiske-2004161.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
+#homepagemedia {
+    background-image: url(pexels-tracy-le-blanc-607812.jpg);
     background-position: center;
     padding-bottom: 250px;
     background-size: cover;
