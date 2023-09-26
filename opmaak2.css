@@ -99,6 +99,16 @@ footer{
     font-family: Helvetica;
 }
 
+#homepage {
+
+    background-image: url(pexels-tara-winstead-8386369.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
 #homepageprivacy {
     background-image: url(pexels-cottonbro-studio-5473955.jpg);
     background-position: center;
