@@ -16,7 +16,6 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    
 }
 
 a:hover{
@@ -26,8 +25,7 @@ a:hover{
 }
 a:link {
     text-decoration: none;
-    color: white;
-    
+    color: white;   
 }
 
 a:visited {
@@ -40,8 +38,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
-   
+    background-color: black;  
 }
 
 #titel {
@@ -49,8 +46,7 @@ body {
     font-family: Helvetica;
     text-align: center;
     margin-top: 200px;
-    color: white;
-    
+    color: white;   
 }
 
 h1 span {
@@ -72,9 +68,7 @@ h1 span {
     font-family: Helvetica;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 50px;
-    
-    
+    padding-top: 50px;   
 }
 
 
@@ -85,15 +79,13 @@ h1 span {
 
     display: flex;
     flex-direction: row;
-    
 }
 
 h2 {
     min-width: 60vh;
 }
 
-footer{
-    
+footer{    
     color: white;
     text-align: center;
     font-family: Helvetica;
@@ -145,7 +137,6 @@ footer{
     background-size: 1450px;
 }
 
-#video {
-    
+#video {  
     align-self: center;
 }
