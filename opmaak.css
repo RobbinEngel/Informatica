@@ -19,6 +19,7 @@ ul {
     justify-content: center;
 }
 
+/* zorgt ervoor dat de tekst een rode achtergrond krijgt als je er met je muis overheen gaat (hover) */
 a:hover{
     background-color: red;  
 }
@@ -33,6 +34,7 @@ a:visited {
     transition: ease-in;
 }
 
+/*zorgt dat het begin scherm een vaste hoogte heeft en dat de achtergrond zwart is */
 body {
     min-height: 100vh;
     display: flex;
@@ -40,6 +42,7 @@ body {
     background-color: black;  
 }
 
+/*regelt de titel tekst, zowel hoe het eruit ziet als zijn positie */
 #titel {
     font-size: 100px;
     font-family: Helvetica;
@@ -48,20 +51,14 @@ body {
     color: white;   
 }
 
+/*maakt dankzij de "span" alleen de achtergrond rood van waar de tekst staat en niet over de gehele breedte*/
 h1 span {
     background-color: red;
 }
 
-#homepagealgemeen {
-    background-image: url(pexels-lukas-574073.jpg);
-    background-position: center;
-    padding-bottom: 250px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 1450px;
-}
 
 
+/* reguleert mijn paragraven tekst*/
 #tekst {
     color: white;
     font-family: Helvetica;
@@ -85,6 +82,16 @@ footer{
     color: white;
     text-align: center;
     font-family: Helvetica;
+}
+
+/*regelt voor elke pagina de begin afbeelding en de positie daarvan */
+#homepagealgemeen {
+    background-image: url(pexels-lukas-574073.jpg);
+    background-position: center;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1450px;
 }
 
 #homepage {
@@ -133,6 +140,7 @@ footer{
     background-size: 1450px;
 }
 
+/*zorgt dat de video in het midden staat */
 #video {  
     align-self: center;
 }
