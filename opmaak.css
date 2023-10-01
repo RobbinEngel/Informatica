@@ -28,7 +28,7 @@ a:link {
     color: white;   
 }
 
-a:visited {
+a{
     text-decoration: none;
     color: white;
     transition: ease-in;
