@@ -23,10 +23,6 @@ ul {
 a:hover{
     background-color: red;  
 }
-a:link {
-    text-decoration: none;
-    color: white;   
-}
 
 a{
     text-decoration: none;
