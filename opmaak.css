@@ -180,3 +180,33 @@ footer{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+
+
+  #tabDiv{
+    color: white;
+    font-family: Helvetica;
+    background-color: blue;
+    width: fit-content;
+    
+  }
+
+  #wrapper{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .tabButton{
+    font-family: Helvetica;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+
+  }
+ 

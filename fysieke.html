@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algemene informatie</title>
+    <title>Computerarchitectuur - Fysieke laag</title>
     <link rel="stylesheet" type="text/css" href="opmaak.css" />
 </head>
 <body>
@@ -43,34 +43,34 @@
     </div>
 
     <!--Lap tekst. Div met id "p2" om in css flexbox te gebruiken-->
-    <div id="tekst">
-        <p id="p1">
-            In de snel evoluerende wereld van informatica is gegevensbeheer een cruciaal aspect geworden. De hoeveelheid digitale informatie groeit exponentieel, wat resulteert in een grotere vraag naar opslagruimte en bandbreedte. Compressietechnieken spelen een essentiële rol in het efficiënt beheren, opslaan en verzenden van gegevens. Dit artikel werpt een diepgaande blik op de verschillende compressiemethoden en de impact ervan op de wereld van de informatica.
-        </p>
-        <div id="p2">
-            <h2>
-                Processor   
-            </h2>
-            <p>
-                Compressietechnieken in informatica verwijderen redundante of overbodige gegevens uit bestanden om de totale bestandsgrootte te verminderen. Dit proces kan worden onderverdeeld in twee hoofdcategorieën: lossless en lossy compressie. Lossless compressie behoudt alle gegevens en maakt het mogelijk om het oorspronkelijke bestand exact te herstellen, terwijl lossy compressie sommige gegevens opoffert om een grotere compressie te bereiken.
-            </p>
-        </div>
-        <div id="p2">
-            <h2>
-                Kloksnelheid
-            </h2>
-            <p>
-                Lossless compressie wordt vaak gebruikt bij het comprimeren van tekstbestanden, programma's en andere gegevens waarbij geen verlies van informatie acceptabel is. Populaire lossless compressie-algoritmen omvatten gzip, ZIP en PNG. Deze technieken verwijderen redundante gegevens door herhalingen en patronen te identificeren en te vervangen door kortere symbolen, waardoor de totale bestandsgrootte wordt verminderd zonder enig verlies van gegevens.
-            </p>
-        </div>
-        <div id="p2">
-            <h2>
-                Verwerkingssnelheid
-            </h2>
-            <p>
-                In tegenstelling tot lossless compressie, elimineert lossy compressie doelbewust sommige gegevens om een grotere compressie te bereiken. Dit wordt vaak gebruikt voor multimedia-inhoud zoals afbeeldingen, audio en video. JPEG, MP3 en MPEG zijn enkele voorbeelden van populaire lossy compressie-indelingen. Hoewel dit leidt tot een aanzienlijke vermindering van de bestandsgrootte, gaat dit ten koste van de kwaliteit, zoals zichtbaar kan zijn in gecomprimeerde afbeeldingen of geluidsvervorming.    
-            </p>
-        </div>
+    <section id="wrapper">
+        <div id="tabDiv">
+        
+            <div class="tabButtonBlock">
+                <button class="tabButton" onclick="openTab('Processoren')">Processoren</button>
+                <button class="tabButton" onclick="openTab('Geheugen')">Geheugen</button>
+                <button class="tabButton" onclick="openTab('iets')">Iets</button>
+              </div>
+    
+            <div id="Processoren" class="tab">
+                <h2>Processoren</h2>
+                <p>London is the capital of England.</p>
+              </div>
+              
+              <div id="Geheugen" class="tab" style="display:none">
+                <h2>Geheugen</h2>
+                <p>Paris is the capital of France.</p>
+              </div>
+              
+              <div id="iets" class="tab" style="display:none">
+                <h2>Iets</h2>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
+              
+     </section>
+
+    </div>
+    
 
        
 
@@ -79,6 +79,18 @@
         <p><span>Written by Robbin Engel</span></p>
     </footer>
     
+    <!--Javascript om tabs te openen en sluiten-->
+    <script>
+        function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+    
+  }
+    </script>
 </body>
 
 </html>
