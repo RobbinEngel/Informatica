@@ -182,15 +182,34 @@ footer{
   }
 
 
+  .tabButtonBlock{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.tabButton
+{
+    font-size: 10px;
+}
 
   #tabDiv{
     color: white;
     font-family: Helvetica;
-    background-color: blue;
     width: fit-content;
     
   }
 
+  .tab{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 50vw;
+    
+  }
   #wrapper{
     height: 50vh;
     display: flex;
