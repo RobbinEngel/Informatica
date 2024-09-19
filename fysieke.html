@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computerarchitectuur - Fysieke laag</title>
+    <link rel="stylesheet" type="text/css" href="opmaak.css" />
+</head>
+<body>
+
+    <!--dit is het menu -->
+    <header>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" id="knop">Home</a></li>
+                <li ><a href="binairstelsel.html" id="knop">Binair stelsel</a></li>
+                <li ><a href="kleurmodellen.html" id="knop">Kleur modellen</a></li>
+                <li><a href="algemeneinformatie.html" id="knop">Algemene informatie</a></li>
+                <li ><a href="compressie.html" id="knop">Compressie</a></li>
+                <li ><a href="media.html" id="knop">Media</a></li>
+                <li ><a href="video.html" id="knop">Video</a></li>
+
+                <div class="dropdown">
+                    <li id="knop">Computerarchitectuur</li>
+                    <div class="dropdown-content">
+                      <a href="fysieke.html">Fysieke laag</a>
+                      <a href="#">Logische laag</a>
+                      <a href="#">Toepassing laag</a>
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+    </header>
+   
+     <!--Titel van de pagina. ID om in CSS achtergrond toe te voegen-->
+    <div id="homepagecompressie">
+        <h1 id="titel">
+            <span>
+                Fysieke laag
+            </span>   
+        </h1>
+    </div>
+
+    <!--Lap tekst. Div met id "p2" om in css flexbox te gebruiken-->
+    <section id="wrapper">
+        <div id="tabDiv">
+        
+            <div class="tabButtonBlock">
+                <button class="tabButton" onclick="openTab('Processoren')">Processoren</button>
+                <button class="tabButton" onclick="openTab('Geheugen')">Geheugen</button>
+                <button class="tabButton" onclick="openTab('iets')">Iets</button>
+              </div>
+    
+            <div id="Processoren" class="tab">
+                <h3>Processoren</h3>
+                <p>London is the capital of England.</p>
+              </div>
+              
+              <div id="Geheugen" class="tab" style="display:none">
+                <h3>Geheugen</h3>
+                <p>Paris is the capital of France.</p>
+              </div>
+              
+              <div id="iets" class="tab" style="display:none">
+                <h3>Iets</h3>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
+              
+     </section>
+
+    </div>
+    
+
+       
+
+    <!--Footer met enkel tekst-->
+    <footer>
+        <p><span>Written by Robbin Engel</span></p>
+    </footer>
+    
+    <!--Javascript om tabs te openen en sluiten-->
+    <script>
+        function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "flex";
+    
+  }
+    </script>
+</body>
+
+</html>

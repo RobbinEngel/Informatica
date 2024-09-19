@@ -180,3 +180,52 @@ footer{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+
+  .tabButtonBlock{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.tabButton
+{
+    font-size: 10px;
+}
+
+  #tabDiv{
+    color: white;
+    font-family: Helvetica;
+    width: fit-content;
+    
+  }
+
+  .tab{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 50vw;
+    
+  }
+  #wrapper{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .tabButton{
+    font-family: Helvetica;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+
+  }
+ 
