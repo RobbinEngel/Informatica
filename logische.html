@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computerarchitectuur - Fysieke laag</title>
+    <title>Computerarchitectuur - Logische laag</title>
     <link rel="stylesheet" type="text/css" href="opmaak.css" />
 </head>
 <body>
@@ -37,7 +37,7 @@
     <div id="homepagecompressie">
         <h1 id="titel">
             <span>
-                Fysieke laag
+                Logische laag
             </span>   
         </h1>
     </div>
@@ -47,13 +47,13 @@
         <div id="tabDiv">
         
             <div class="tabButtonBlock">
-                <button class="tabButton" onclick="openTab('Processoren')">Processor</button>
-                <button class="tabButton" onclick="openTab('Geheugen')">Geheugen</button>
-                <button class="tabButton" onclick="openTab('iets')">Randapparatuur</button>
+                <button class="tabButton" onclick="openTab('OS')">Operating system</button>
+                <button class="tabButton" onclick="openTab('DBMS')">DBMS</button>
+                
               </div>
     
-            <div id="Processoren" class="tab">
-                <h3>Processor</h3>
+            <div id="OS" class="tab">
+                <h3>Operating System</h3>
                 <p>De processor, ofwel CPU (Central processing unit) is wellicht wel het belangrijkste onderdeel van iedere computer. Echter kan de CPU niet werken zonder andere componenten. Zie de CPU als het brein van de computer; Net als ons brein stuurt het onze overige componenten aan. De CPU ontvang vanuit het werkgeheugen (RAM) instructies en ontvangt deze in de control unit. Deze zoekt de opslagplaats van het benodigde stukje data uit het geheugen van de computer. Deze data wordt doorgestuurd naar de ALU (arithmetic/logic unit)van de processor. Hier word de opdracht verwerkt in binaire codes, door middel van kleine schakelingen die vliegensvlug aan en uit gaan om een 0 of 1 te produceren. Deze binaire instructies sturen de benodigde componenten aan om de taak uit te voeren.
 
                   <br>Dit alles gebeurt vliegensvlug. Hoe snel dit is kun je aflezen uit de kloksnelheid van de processor. Deze wordt vaak gegeven in Hertz. Één Hz komt overeen met één bewerking per seconde. Dus de kloksnelheid is hoe snel de CPU een binaire waarde van 0 of 1 kan aangeven, door middel van een kleine schakeling. De meeste moderne CPU’s werken met 3 tot 5 GHz. Dit zijn dan wel 3 tot 5 miljard(!) bewerkingen per seconde. Dit resulteert erin dat computers hele complexe programma’s kunnen runnen op hoge snelheden. 
@@ -62,8 +62,8 @@
                   </p>
               </div>
               
-              <div id="Geheugen" class="tab" style="display:none">
-                <h3>Geheugen</h3>
+              <div id="DBMS" class="tab" style="display:none">
+                <h3>DBMS</h3>
                 <p>RAM is een acroniem voor ‘Random Access Memory’. In de RAM wordt de data opgeslagen die de CPU op dat moment nodig heeft. Data in de RAM is broodnodig, omdat deze veel sneller op te halen valt dan de data uit de harde schrijf. 
 
                   <br>Bij het opstarten van je computer is de dataopslag van de RAM initieel leeg. De RAM vult telkens zichzelf met de benodigde data vanuit andere opslag bronnen waarmee de CPU de benodigde taak kan uitvoeren. Dus als jij je browser opent, verzamelt de RAM alle data waarmee de CPU alle taken kan voltooien. Dit systeem is bedacht door John von Neumann.  
@@ -76,17 +76,7 @@
                   .</p>
               </div>
               
-              <div id="iets" class="tab" style="display:none">
-                <h3>Randapparatuur</h3>
-                <p>Om een computer te maken heb je in principe alleen een processor en geheugen nodig. Echter gebruiken wij nog veel meer componenten om de computer makkelijker in gebruik en krachtiger te maken. Deze componenten vallen gezamenlijk onder de randapparatuur. Deze groep is onderverdeeld in 3 categorieën
-
-                  <br>De invoerapparatuur zijn apparaten waarmee wij interacties plegen met de computer. Denk aan een toetsenbord om mee te typen en een muis om mee te klikken. 
-                  
-                 <br> De uitvoerapparatuur zijn apparaten die de output van de computer naar ons toe leveren. Denk hierbij aan een monitor, die visuele output geeft. Of een speaker die geluids output geeft.
-                  
-                 <br> Opslag en data overdracht apparaten geven data aan de computer, zoals een cd speler of een usb-stick. De data die wij hierop zetten (bijvoorbeeld films, vakantiefoto's) kunnen wij zo overplaatsen naar de interne opslag van de computer.
-                  </p>
-              </div>
+             
               
      </section>
 
