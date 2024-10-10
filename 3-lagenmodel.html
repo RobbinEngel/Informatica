@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computerarchitectuur - Fysieke laag</title>
+    <title>Computerarchitectuur - 3-lagenmodel</title>
     <link rel="stylesheet" type="text/css" href="opmaak.css" />
 </head>
 <body>
@@ -38,40 +38,34 @@
     <div id="homepagecompressie">
         <h1 id="titel">
             <span>
-                Toepassings laag
+                3-Lagenmodel
             </span>   
         </h1>
     </div>
 
-    <!--Lap tekst. Div met id "p2" om in css flexbox te gebruiken-->
     <section id="wrapper">
         <div id="tabDiv">
         
             <div class="tabButtonBlock">
-                <button class="tabButton" onclick="openTab('Apps')">Apps</button>
-                <button class="tabButton" onclick="openTab('API')">API's</button>
+                <button class="tabButton" onclick="openTab('3-Lagenmodel')">3-Lagenmodel</button>
+                <button class="tabButton" onclick="openTab('Tekening')">Tekening</button>
                 
               </div>
     
-            <div id="Apps" class="tab">
-                <h3>Apps</h3>
+            <div id="3-Lagenmodel" class="tab">
+                <h3>3-Lagenmodel</h3>
                 <p>
-                    Apps, ofwel applicaties zijn programma’s die bedoeld zijn voor de gebruiker. Zo’n applicatie word gedraaid op een besturingssysteem. Sommige apps kunnen op verschillende besturingssystemen gedraaid worden. We noemen de app dan multiplatform. Adobe Photoshop kan bijvoorbeeld wel gerund worden op windows en macOs, maar niet op chromeOs, android en iOS.
-Voorbeelden van Apps zijn bijvoorbeeld schrijf applicaties (zoals word), media applicaties en webapplicaties. Webapplicaties worden gerund op een webbrowser. De data hiervan staat opgeslagen op een webserver. Zolang je besturingssysteem een webbrowser kan runnen, kun je webapplicaties zoals gmail gebruiken. 
+                    Een computer bestaat uit drie lagen: de fysieke-, logische- en toepassingslaag. Deze drie werken samen in harmonie om de computer werkend te maken. De fysieke laag bestaat uit de tastbare onderdelen van de computer. Denk hierbij aan de CPU (processor), GPU (videokaart) en RAM (werkgeheugen). De specificaties van deze onderdelen bepalden o.a. hoe snel de computer werkt. De logische laag zorgt ervoor dat de componenten van de computer door middel van een operating system met elkaar kunnen werken. Hierdoor kan het systeem opstarten en kan software uitgevoerd worden. De toepassingslaag bestaat uit software en apps die bedoeld zijn voor de gebruiker. Denk hierbij aan Chrome, Adobe Photoshop en Minecraft.
 
                   </p>
               </div>
               
-              <div id="API" class="tab" style="display:none">
-                <h3>API's</h3>
-                <p>
-                    Een API (Application programming interface) is een verzameling aan data, waarmee computerprogramma's met elkaar of andere onderdelen kunnen communiceren. Op deze manier hoeven programma's niet altijd alles zelf te weten, maar kunnen ze informatie opvragen. Een voorbeeld hiervan is hoe niet ieder tekenprogramma zelf hoeft te weten hoe je een printer aanstuurt. In plaats hiervan gebruiken ze een API, waarin deze informatie staat en gedeeld kan worden met zowel Word, Adobe Photoshop en Microsoft Paint. 
-Op deze manier kunnen app (en site) ontwikkelaars ook via API’s toegang krijgen tot andere data. Je zou door middel van een API ook zelf een weer-app kunnen programmeren. Hiermee kun je de data van het weer via de API ontvangen en hoef je niet zelf buiten 24/7 met een temperatuurmeter te staan!
-
-                </p>
+              <div id="Tekening" class="tab" style="display:none">
+                <h3>Tekening</h3>
+                <img src="3-lagenmodel.png" alt="">
               </div>
               
-              
+             
               
      </section>
 
